@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/x-icon.png" type="image/x-icon">
+    <title>Quick</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/small.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div class="row">
+            <div class="nav-content">
+                <button class="three-desh-btn" popovertarget="side-menu"><i class="fa-duotone fa-regular fa-bars"></i></button>
+                <ul id="side-menu" popover>
+                    <div class="close-side-bar-box">
+                        <button class="three-desh-btn three-desh-btn-close" popovertarget="side-menu" popovertargetactive="hide"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="dropdown-link">Products <i style="rotate: -90deg;" class="fa-duotone fa-regular fa-angle-down"></i></a>
+                        <ul class="dropdown-menu dropdown-side-menu">
+                            <li><a href="#">White Material card</a></li>
+                            <li><a href="#">laminating card</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">secutaiy</a></li>
+                    <li class="menu-item"><a href="#">About us</a></li>
+                    <li class="menu-item"><a href="#">Contact us</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Quick">
+                </div>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="dropdown-link">Products <i class="fa-duotone fa-regular fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">White Material card</a></li>
+                            <li><a href="#">laminating card</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">secutaiy</a></li>
+                    <li class="menu-item"><a href="#">About us</a></li>
+                    <li class="menu-item"><a href="#">Contact us</a></li>
+                </ul>
+                <div class="orders">
+                    <a href="#">
+                        <i class="fa-light fa-bag-shopping hide"></i>
+                        <i class="fa-solid fa-bag-shopping show"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header section -->
+    <header>
+        <div class="row">
+            <div class="header-content">
+                <div class="header-col">
+                    <h1>Digital Smart</h1>
+                    <h2>Business Card</h2>
+                    <p class="Reasons-for-use">Share your contact information with just a scan.</p>
+                    <p class="Reasons-for-use">Update, change, or add new information at any time</p>
+                    <a href="#" class="btn order-btn">order now</a>
+                </div>
+                <div class="header-col video">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/video/animation.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- products section -->
+    <section class="our-products">
+        <div class="row section-title-row">
+            <h3 class="section-title">out products</h3>
+        </div>
+        <div class="row product-row">
+            <div class="product-main-box">
+                <div class="p-img-box">
+                    <model-viewer 
+                        src="assets/3d-models/pvc.gltf" 
+                        style="width: 100%; height: 100%;" 
+                        autoplay camera-controls 
+                        camera-orbit="-70deg 100deg 4m">
+                    </model-viewer>
+                    <button class="full-screen"><i class="fa-regular fa-expand"></i></button>
+                </div>
+                <div class="product-details-box">
+                    <div class="details-col">
+                        <a href="#" class="p-titles">White Material</a>
+                        <div class="p-price">
+                            <span class="sell-p">৳ 599</span>
+                            <span class="original-p">৳ 1,199</span>
+                        </div>
+                    </div>
+                    <div class="buy-buttons-box">
+                        <a href="#" class="btn buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-main-box">
+                <div class="p-img-box">
+                    <model-viewer 
+                        src="assets/3d-models/laminating.glb" 
+                        style="width: 100%; height: 100%;" 
+                        autoplay camera-controls 
+                        camera-orbit="-125deg 80deg 4m">
+                    </model-viewer>
+                    <button class="full-screen"><i class="fa-regular fa-expand"></i></button>
+                </div>
+                <div class="product-details-box">
+                    <div class="details-col">
+                        <a href="#" class="p-titles">laminating card</a>
+                        <div class="p-price">
+                            <span class="sell-p">৳ 599</span>
+                            <span class="original-p">৳ 1,199</span>
+                        </div>
+                    </div>
+                    <div class="buy-buttons-box">
+                        <a href="#" class="btn buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Benefits of use section -->
+    <section class="benefits-of-use">
+        <div class="row section-title-row">
+            <h3 class="section-title">Benefits of use</h3>
+        </div>
+        <div class="row benefits-btn-row">
+            <button id="Share-btn" class="benefit-btn active">Quick Share</button>
+            <button id="limits-btn" class="benefit-btn">Usage limits</button>
+            <button id="Capture-btn" class="benefit-btn">Lead Capture</button>
+            <button id="business-btn" class="benefit-btn">Grow Business</button>
+        </div>
+        <div class="row benefit-content-row">
+            <div id="Share-content" class="benefit-content-box" style="display: block;">
+                <div class="content-box">
+                    <div class="content">
+                        <div class="icon"><i class="fa-duotone fa-light fa-qrcode"></i></div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">QR scan</h4>
+                            <p class="benefit-desc">Share contact information instantly by scanning the QR code on any smartphone.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-address-book"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Contact Download</h4>
+                            <p class="benefit-desc">Anyone can scan the QR-code on your <b>Quick</b> Digital Smart Business card to download and save contact information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="limits-content" class="benefit-content-box">
+                <div class="content-box">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-regular fa-timer"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">No time limit</h4>
+                            <p class="benefit-desc">Use your <b>Quick</b> Digital Smart Business Card as long as you want. There are no time or restrictions.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-wrench"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Update</h4>
+                            <p class="benefit-desc">Update, edit your information. No additional cost required.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-regular fa-circle-nodes"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Connect</h4>
+                            <p class="benefit-desc">Connect wherever you go. Your <b>Quick</b> smart business card can be easily shared with anyone you meet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Capture-content" class="benefit-content-box">
+                <div class="content-box">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-regular fa-arrows-rotate-reverse"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Contact exchange</h4>
+                            <p class="benefit-desc">Instantly share your contact information with anyone and capture lead simultaneously.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-regular fa-ban"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">No app needed</h4>
+                            <p class="benefit-desc">No apps are required to use <b>Quick</b> Digital Smart Business Card.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-headset"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">24/7 Support team</h4>
+                            <p class="benefit-desc">Create your <b>Quick</b> digital smart business card and we promise to give you 24/7 customer support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="business-content" class="benefit-content-box">
+                <div class="content-box">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-handshake"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Enhanced Networking</h4>
+                            <p class="benefit-desc">With Quick Digital Smart Business Cards, it is possible to share your contact details instantly and seamlessly. This helps to leave a lasting impression on potential clients and partners, improving the chances of making valuable connections.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-bullhorn"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Cost-effective Marketing</h4>
+                            <p class="benefit-desc">Quick Digital Smart Business Cards are eco-friendly and eliminate the need for repeated printing. Additionally, they can include links to your social media, portfolio or product catalog, acting as a mini digital marketing tool.</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-light fa-id-card"></i>
+                        </div>
+                        <div class="title-desc">
+                            <h4 class="benefit-title">Professional Branding</h4>
+                            <p class="benefit-desc">A modern Quick Digital Business Card showcases your tech-savvy and professionalism. It helps to strengthen your brand image and makes it easier for clients to remember you and reach you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="js/app.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</body>
+</html>
